@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Kashmir</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar stars here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h5 class="head">VISIT KASHMIR</h5></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle " role="button" data-bs-toggle="dropdown" href="#" >Service</a>
+                <ul class="dropdown-menu ">
+                  <li><a href="dal.html" class="dropdown-item">Dal Lake</a></li>
+                  <li><a href="aru.html" class="dropdown-item">Aru Valley</a></li>
+                  <li><a href="gulmarg.html" class="dropdown-item">Gulmarg</a></li>
+                  <li><a href="pahalgam.html" class="dropdown-item">Pahalgam</a></li>
+                  <li><a href="sonmarg.html" class="dropdown-item">Sonmarg</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#contact">Contact</a>
+                  <!-- The Modal -->
+                            <div class="modal" id="contact">
+                              <div class="modal-dialog ">
+                                <div class="modal-content">
+
+                                  <!-- Modal Header -->
+                                  <div class="modal-header bg-info">
+                                    <h4 class="modal-title">Contact Us</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                  </div>
+
+                                  <!-- Modal body -->
+                                  <div class="modal-body ms-4">
+                                    <form action="#" method="post" enctype="multipart/form-data">
+                                      <label for=""><b>Email:</b></label><br>
+                                      <input type="email" placeholder="Enter Email" required><br/>
+                                      <label for=""><b>Contact Number:</b></label><br>
+                                      <input type="number" placeholder="Enter Contact Number" required><br/>
+                                      <label for=""><b>Date:</b></label><br/>
+                                      <input type="Date" required>
+                                    </form>
+                                  </div>
+
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal"><a href="#" class="text-white text-decoration-none">Submit</a></button>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                
+              </li>
+              
+            </ul>
+           
+              <button class="btn btn-warning  me-2" type="button" data-bs-toggle="modal" data-bs-target="#signup" id="bt1">Sign Up</button>
+              <div class="modal fade " id="signup">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+
+                      <div class="container">
+
+                        <div class="row">
+                          <div class="col-lg-2"></div>
+                          <div class="col-lg-8">
+                            <div class="card shadow">
+                              <div class="card-header bg-info text-center text-white">
+                               
+                                <Strong>User Sign Up</Strong>
+                              </div>
+                              <div class="card-body">
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                  <div class="form-group">
+                                    <label for="">Name</label>
+                                    <input type="text" name="name" class="form-control" >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="email" name="name" class="form-control" >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="">Contact Number</label>
+                                    <input type="number" name="contact" class="form-control" >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="">Password</label>
+                                    <input type="password" name="password" class="form-control" >
+                                  </div>
+                                  
+                                  <div class="form-group">
+                                    <label for=""> Confirm Password</label>
+                                    <input type="password" name=" confirm password" class="form-control" >
+                                  </div>
+                                  <div class="form-group mt-3">
+                                    
+                                    <input type="submit" name="btn" class="form-control btn btn-primary"  >
+                                  </div>
+                                  
+                
+                                </form>
+                              </div>
+                              <div class="card-footer bg-success text-center text-white">
+                                All Fields Mandatory
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-2"></div>
+                        </div>
+        
+        
+        
+        
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+                        
+                      </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                   
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-warning  me-2 " type="button" data-bs-toggle="modal" data-bs-target="#login">Log in</button>
+              <div class="modal fade " id="login">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div> 
+                    <div class="modal-body">
+
+                      <div class="container">
+
+                        <div class="row">
+                          <div class="col-lg-2"></div>
+                          <div class="col-lg-8">
+                            <div class="card shadow">
+                              <div class="card-header bg-info text-center text-white">
+                                <Strong>User Log in</Strong>
+                              </div>
+                              <div class="card-body " style="margin-right: 30px;">
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                  <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="email" name="name" class="form-control" >
+                                  </div>
+                                 
+                                  <div class="form-group">
+                                    <label for="">Password</label>
+                                    <input type="password" name="password" class="form-control" >
+                                  </div>
+                                  
+                                  
+                                  <div class="form-group mt-3">
+                                    
+                                    <input type="submit" name="btn" class="form-control btn btn-success"  >
+                                  </div>
+                                
+                                </form>
+                              </div>
+                
+                            </div>
+                          </div>
+                          <div class="col-lg-2"></div>
+                        </div>
+        
+        
+        
+        
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+                        
+                      </div>
+                    </div>
+                    <div class="modal-footer"></div>
+                   
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar ends here -->
+
+      <!-- Carousel starts here -->
+<div id="kanpur" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#kanpur" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#kanpur" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#kanpur" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner  shadow">
+      <div class="carousel-item active ">
+        <img src="image/dal-lake.jpg" alt="image" class="d-block w-100 " style="height:500px">
+      </div>
+      <div class="carousel-item">
+        <img src="image/pic.jpeg" alt="image" class="d-block w-100" style="height:500px">
+      </div>
+      <div class="carousel-item">
+        <img src="image/pic1.jpg" alt="image" class="d-block w-100" style="height:500px">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#kanpur" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#kanpur" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+   <!-- Carousel ends here -->
+
+  <div class="heading text-center mt-5" ><h2>Famous In Kashmir</h2></div>
+
+<div class="container mb-5 ">
+    <div class="row ">
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5 shadow p-5 " >
+            <img src="image/dal.jpg" alt="" class="img-fluid">
+            <h3 id="dal">Dal Lake</h3>
+            
+            <div class="collapse" id="readMore1">
+              
+              <p>Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir, India. It is an urban lake, the second largest lake in Jammu and Kashmir, </p>
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore1">
+              Read More
+          </button>
+          
+            
+          
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 150" readonly>
+       <div id="payment" class=" container d-flex mt-2">
+        Offline <input type="radio" name="o">
+        Online <input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+        
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5 shadow p-5 " >
+            <img src="image/dal.jpg" alt="" class="img-fluid " >
+            <h3 id="aru">Aru Valley</h3>
+            <div class="collapse" id="readMore2">
+              
+              <p>Aru is a village, tourist spot in the Anantnag District of Jammu and Kashmir, India. It lies 53km from Anantnag city, the district headquarter. It is located around 12 km from Pahalgam, 11 km upstream from the Lidder River.  </p> 
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore2">
+              Read More
+          </button>
+            
+          
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets2">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets2">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 200" readonly>
+       <div id="payment" class=" container d-flex mt-2">
+        Offline<input type="radio" name="o">
+        Online<input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+        
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5 shadow p-5 " >
+            <img src="image/pic6.webp" alt="" class="img-fluid " style="margin-top: -8px;">
+            <h3 id="gulmarg">Gulmarg</h3>
+            <div class="collapse" id="readMore3">
+              <p>Gulmarg's legendary beauty, prime location and proximity to gulmarg naturally make it one of Asia's premier hill resorts. Originally called 'Gaurimarg'  </p>
+          
+               
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore3">
+              Read More
+          </button>
+           
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets3">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets3">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 350" readonly>
+       <div id="payment" class=" container d-flex mt-2">
+        Offline<input type="radio" name="o">
+        Online<input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+        
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5 shadow p-5 " >
+            <img src="image/pic7.webp" alt="" class="img-fluid">
+            <h3 id="pahalgam"> Pahalgam</h3>
+            <div class="collapse" id="readMore4">
+              <p>Pahalgam is a town and a notified area committee in Anantnag district of the Indian state of Jammu & Kashmir. It is a popular tourist destination and hill station.[1] It is located 45 kilometres (28 mi) from Anantnag on the banks of Lidder</p>
+            
+               
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore4">
+              Read More
+          </button>
+            
+          
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets4">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets4">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 750" readonly>
+       <div id="payment" class="  container d-flex mt-2">
+        Offline<input type="radio" name="o">
+        Online<input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5 shadow p-5 " >
+            <img src="image/Sonmarg.webp" alt="" class="img-fluid">
+            <h3 id="sonmarg">Sonmarg</h3>
+            <div class="collapse" id="readMore5">
+              <p>Sonmarg or Sonmarg, located at a hefty altitude of 2,740 m above sea level, literally means 'Meadow of Gold'. The picturesque natural beauty of the region brought this name to Sonamarg. Sonamarg, a town surrounded by breathtaking glaciers and serene lakes,</p>
+               
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore5">
+              Read More
+          </button>
+            
+          
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets5">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets5">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 1150" readonly>
+       <div id="payment" class=" container d-flex mt-2">
+        Offline<input type="radio" name="o">
+        Online<input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+
+        <div class="col-lg-4 col-6 col-sm-4 col-xl-4 col-xxl-4 mt-5  shadow p-5 " >
+            <img src="image/kargil.webp" alt="" class="img-fluid">
+            <h3>Kargil</h3>
+            <div class="collapse" id="readMore6">
+              <p>Kargil is a town, which serves as the headquarters of Kargil district of Ladakh in the state of Jammu and Kashmir in India. It is the second largest town in Ladakh after Leh. It is located 60 km and 204 km from Drass and Srinagar to the west respectively, </p>
+            </div>
+            <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#readMore6">
+              Read More
+          </button>
+            
+          
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#tickets6">
+    buy Tickets
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal fade" id="tickets6">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+          <h4 class="modal-title">Book Your Tickets</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body text-dark text-center mt-2">
+         <input type="text" value="	&#8377; 1550" readonly>
+       <div id="payment" class=" container d-flex mt-2">
+        Offline<input type="radio" name="o">
+        Online<input type="radio" name="o">
+       </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal">Continue</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+           
+            
+        </div>
+        
+    </div>
+    
+    
+</div>
+<div class="container-fluid bg-dark text-white text-center p-3 ">Copyright © 2023-2030  Visit Kashmir.  Proudly created by Ajeet Pal.</div>
+  
+    
+</body>
+<script src="js/bootstrap.js"></script>
+<script>
+  
+    
+  document.querySelector('#readMore').addEventListener('hidden.bs.collapse', function () {
+       
+  });
+
+  document.querySelector('#readMore').addEventListener('shown.bs.collapse', function () {
+     
+  });
+
+
+</script>
+</html>
